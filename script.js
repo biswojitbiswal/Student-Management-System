@@ -16,9 +16,9 @@ let femaleTableBody = document.getElementById("female-table-body");
 
 function renderStudents(arr){
 
-    document.getElementById("all-students-table").style.display = "block";
-
+    
     document.getElementById("gender-tables").style.display = "none";
+    document.getElementById("all-students-table").style.display = "block";
 
 
     tableBody.innerHTML = "";
